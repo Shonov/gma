@@ -1,0 +1,185 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon' href='./img/icons/favicon.png' type='image/x-icon')
+    title Gma
+body
+    include ../includes/header
+    main.main
+        section.section.section-pager
+            .section__container
+                .section-pager__container
+                    a.section-pager__home(href="#") Главная
+                    .section-pager__slash /
+                    a.section-pager__current(href="") Галерея
+
+        section.section.section-gallery
+            .section__container
+                .gallery
+                    .section-about-us__title Галерея
+                    .section__devider.section__devider--pc_hiden
+                    .gallery__menu
+                        a.gallery__menu-item(data-type="all-picture", data-active="1").gallery__menu-item--active.gallery__menu-item--small Все фото
+                        a.gallery__menu-item(data-type="work-picture", data-active="0").gallery__menu-item--big Фотографии работ
+                        a.gallery__menu-item(data-type="before-and-after", data-active="0").gallery__menu-item--small До/после
+                        a.gallery__menu-item(data-type="couching-picture", data-active="0").gallery__menu-item--big Фотографии с обучения
+                    .gallery__menu-devider
+                        .gallery__menu-devider-item(data-type="all-picture", data-active="1").gallery__menu-item--small.gallery__menu-devider-item--active
+                        .gallery__menu-devider-item(data-type="work-picture", data-active="0").gallery__menu-item--big
+                        .gallery__menu-devider-item(data-type="before-and-after", data-active="0").gallery__menu-item--small
+                        .gallery__menu-devider-item(data-type="couching-picture", data-active="0").gallery__menu-item--big
+
+        section.section-gallery
+            .section__container
+                .gallery-container(data-type="all-picture", data-active="1").gallery-container--active
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                .gallery-container(data-type="work-picture", data-active="0")
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                .gallery-container(data-type="before-and-after", data-active="0")
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                .gallery-container(data-type="couching-picture", data-active="0")
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                    .gallery-container__row
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                        .gallery-container__box_img
+                            img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                .gallery-container__mobile-items(data-type="all-picture", data-active="1").gallery-container__mobile-items--pc_hidden.gallery-container__mobile-items--active
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/61kUw9Rh7FQ.jpg").minimized
+                .gallery-container__mobile-items(data-type="work-picture", data-active="0").gallery-container__mobile-items--pc_hidden
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/BEcE-nYBVQ4.jpg").minimized
+                .gallery-container__mobile-items(data-type="before-and-after", data-active="0").gallery-container__mobile-items--pc_hidden
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20170523_133831_316.jpg").minimized
+                .gallery-container__mobile-items(data-type="couching-picture", data-active="0").gallery-container__mobile-items--pc_hidden
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+                    .gallery-container__box_img
+                        img.gallery-container__img(src ="./img/gallery/IMG_20171128_182738_907.jpg").minimized
+
+        section.section.section-gallery_inst
+            .section-instagram
+                .section-instagram__preview
+                    .section-instagram__title Мы в Instagram
+                    .section-instagram__description
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        | Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    a.section-instagram__link(href="https://www.instagram.com/gma_detailing/") gma_detailing
+                #instafeed
+    include ../includes/footer

@@ -1,0 +1,203 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon' href='./img/icons/favicon.png' type='image/x-icon')
+    title Gma
+
+body
+    include ../includes/header
+    main.main
+        section.section.section-video
+            video.section-video__video(autoplay='autoplay', poster='./img/main_img.jpg')
+                source(src='./img/main.mp4', type='video/mp4')
+            img.section-video__poster(src="./img/main_img.jpg")
+
+        section.section.section-about_us
+            .section__container
+                .section__title О студии за 90 секунд
+                .section__description Посмотри короткое видео о нас
+                .section__devider
+                iframe.section__video(src='https://www.youtube.com/embed/vVMqN-FbGco?start=179' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+        section.section.section-results
+            .section__container
+                .section__title Результаты работ
+                .section__devider
+                .section-results__slider.juxtapose(data-startingposition="45%")
+                    img(src="../img/results-after.jpg")
+                    img(src="../img/results-before.jpg")
+
+        section.section.section-we_can
+            .section__container.section-we_can--pc
+                .section__title Что мы умеем
+                .section__devider
+                .section__product-list
+                    .product__row
+                        .product.product--first
+                            .product__name
+                                | Химчистка
+                                br
+                                | салона
+                            .product__container
+                                .product__price от 6 000 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--second
+                            .product__name
+                                | Полировка
+                                br
+                                | авто
+                            .product__container
+                                .product__price от 4 000 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--third
+                            .product__name
+                                | Керамика
+                                br
+                                img.product__description(src="./img/caramic_pro.png")
+                            .product__container
+                                .product__price от 15 000 ₽
+                                a.product__link(href="#") Подробнее
+                    .product__row
+                        .product.product--fourth
+                            .product__name
+                                | Мойка
+                                br
+                                | мотора
+                            .product__container
+                                .product__price от 4 000 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--fifth
+                            .product__name
+                                | Мойка
+                                br
+                                | авто
+                            .product__container
+                                .product__price от 500 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--sixth
+                            .product__new
+                                img.product__description(src="./img/new.png")
+                            .product__name
+                                | Бронированная
+                                br
+                                | пленка
+                            .product__container
+                                .product__price от 1 500 ₽
+                                a.product__link(href="#") Подробнее
+                    .product__row
+                        .product.product--seventh
+                            .product__name
+                                | Шумоизоляция
+                                br
+                                | автомобиля
+                            .product__container
+                                .product__price от 10 000 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--eighth
+                            .product__new
+                                img.product__description(src="./img/new.png")
+                            .product__name
+                                | Оклейка
+                                br
+                                | винилом
+                            .product__container
+                                .product__price от 9 000 ₽
+                                a.product__link(href="#") Подробнее
+                        .product.product--ninth
+                            .product__name
+                                | Установка
+                                br
+                                | доводчиков
+                            .product__container
+                                .product__price от 2 500 ₽
+                                a.product__link(href="#") Подробнее
+            .section__container.section-we_can--mobile
+                .section__title Что мы умеем
+                .section__devider
+                .section__product-list
+                    .product__row
+                        a.product.product--first(href="#")
+                            .product__name
+                                | Химчистка
+                                br
+                                | салона
+                            .product__container
+                                .product__price от 6 000 ₽
+                        a.product.product--second(href="#")
+                            .product__name
+                                | Полировка
+                                br
+                                | авто
+                            .product__container
+                                .product__price от 4 000 ₽
+                    .product__row
+                        a.product.product--third(href="#")
+                            .product__name
+                                | Керамика
+                                br
+                                img.product__description(src="./img/caramic_pro.png")
+                            .product__container
+                                .product__price от 15 000 ₽
+                        a.product.product--fourth(href="#")
+                            .product__name
+                                | Мойка
+                                br
+                                | мотора
+                            .product__container
+                                .product__price от 4 000 ₽
+                    .product__row
+                        a.product.product--fifth(href="#")
+                            .product__name
+                                | Мойка
+                                br
+                                | авто
+                            .product__container
+                                .product__price от 500 ₽
+                        a.product.product--sixth(href="#")
+                            .product__new
+                                img.product__description(src="./img/new.png")
+                            .product__name
+                                | Бронированная
+                                br
+                                | пленка
+                            .product__container
+                                .product__price от 1 500 ₽
+                    .product__row
+                        a.product.product--seventh(href="#")
+                            .product__name
+                                | Шумоизоляция
+                                br
+                                | автомобиля
+                            .product__container
+                                .product__price от 10 000 ₽
+                        a.product.product--eighth(href="#")
+                            .product__new
+                                img.product__description(src="./img/new.png")
+                            .product__name
+                                | Оклейка
+                                br
+                                | винилом
+                            .product__container
+                                .product__price от 9 000 ₽
+                    .product__row
+                        a.product.product--ninth(href="#")
+                            .product__name
+                                | Установка
+                                br
+                                | доводчиков
+                            .product__container
+                                .product__price от 2 500 ₽
+
+        section.section-instagram
+            .section-instagram__preview
+                .section-instagram__title Мы в Instagram
+                .section-instagram__description
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    | Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                a.section-instagram__link(href="https://www.instagram.com/gma_detailing/") gma_detailing
+            #instafeed
+                
+        section.section.section-map
+            .section__container
+                iframe.section__map(src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.1344704795997!2d39.71654211540882!3d47.272625818982426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b81f860d8385%3A0x1fb8077aaccea9b5!2z0YPQuy4g0J_Qu9C40LXQstCwLCA2MSwg0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NDA2OA!5e0!3m2!1sru!2sru!4v1545378654151&hl=ru" frameborder='0'  allowfullscreen='')
+    include ../includes/footer

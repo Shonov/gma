@@ -1,0 +1,64 @@
+header.header
+    .header__contacts.header__contacts--pc
+        .header-contacts
+            .header-contacts__side
+                .header-contacts__item
+                    img.header-contacts__icon(src="./img/icons/e-mail-envelope.svg")
+                    a.header-contacts__link(href="#") gma@yandex.ru
+                .header-contacts__item
+                    img.header-contacts__icon(src="./img/icons/clock.svg")
+                    a.header-contacts__link(href="#") Пн - Сб 8.00 - 20.00  Воскресенье - выходной
+            .header-contacts__side.header-contacts__side--right
+                .header-contacts__item
+                    img.header-contacts__icon(src="./img/icons/telephone_1.svg")
+                    a.header-contacts__link(href="#") 8 (928) 126-81-66
+                .header-contacts__item
+                    img.header-contacts__icon(src="./img/icons/placeholder.svg")
+                    a.header-contacts__link(href="#") Плиева 61, Ростов-на-Дону
+    .header__menu.header__menu--pc
+        .header-menu
+            img.header-menu__logo(src="./img/icons/logo.svg")
+            .header-menu__menu
+                a.header-menu__menu-item.header-menu__menu-item--active.header-menu__menu-item--pc-active(href="/") Главная
+                a.header-menu__menu-item(href="#") О нас
+                a.header-menu__menu-item(href="#") Галерея
+                a.header-menu__menu-item(href="#") Полезные Cоветы
+                a.header-menu__menu-item(href="#") Конфигуратор
+                a.header-menu__menu-item(href="#") Контакты
+            a.header-menu__book-training(href="#") Записаться на обучение
+            .header-menu__social-icons
+                a.header-menu__social-link(href="#")
+                    img.header-menu__social-icon(src="./img/icons/vk2.svg")
+                a.header-menu__social-link(href="#")
+                    img.header-menu__social-icon(src="./img/icons/instagram2.svg")
+                a.header-menu__social-link(href="#")
+                    img.header-menu__social-icon(src="./img/icons/youtube3.svg")
+
+    .header__menu.header__menu--mobile
+        img.header__open-menu(src="./img/icons/menu_mobile.svg")
+        .header-contacts__item
+            img.header-contacts__icon(src="./img/icons/telephone_1.svg")
+            a.header-contacts__link(href="#") 8 (928) 126-81-66
+    .header-menu__mob-down-container(id="mob-down-container")
+        .header-menu__mob-down-close-container
+            img.header-menu__mob-down-close(src="../img/icons/close_mobile.svg" id="close-mob-down")
+        ul.header-menu__mob-down
+            li.header-menu__mob-down-item
+                a(href="/").header-menu__mob-down-link Главная
+            li.header-menu__mob-down-item
+                a(href="#").header-menu__mob-down-link О нас
+            li.header-menu__mob-down-item
+                a(href="#").header-menu__mob-down-link Галерея
+            li.header-menu__mob-down-item
+                a(href="#").header-menu__mob-down-link Полезные советы
+            li.header-menu__mob-down-item
+                a(href="#").header-menu__mob-down-link Конфигуратор
+            li.header-menu__mob-down-item
+                a(href="#").header-menu__mob-down-link Контакты
+        .header-menu__social-icons.header-menu__social-icons-mobile
+            a.header-menu__social-link-mobile(href="#")
+                img.header-menu__social-icon-mobile(src="./img/icons/vk2.svg")
+            a.header-menu__social-link-mobile(href="#")
+                img.header-menu__social-icon-mobile(src="./img/icons/instagram2.svg")
+            a.header-menu__social-link-mobile(href="#")
+                img.header-menu__social-icon-mobile(src="./img/icons/youtube3.svg")

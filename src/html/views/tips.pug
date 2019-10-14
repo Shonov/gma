@@ -1,0 +1,73 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon' href='./img/icons/favicon.png' type='image/x-icon')
+    title Gma
+
+body
+    include ../includes/header
+    main.main
+        section.section.section-pager
+            .section__container
+                .section-pager__container
+                    a.section-pager__home(href="#") Главная
+                    .section-pager__slash /
+                    a.section-pager__current(href="") Полезные советы
+
+        section.section.section-tips
+            .section-tips__container
+                .section-post__title Полезные советы
+                .section__devider.section__devider--pc_hiden.section__devider--mobile
+                .tips-post__list
+                    .tips-post
+                        .tips-post__first
+                            img.tips-post__img(src="./img/post-1_big.jpg")
+                        .tips-post__main
+                            .tips-post_info
+                                .tips-post_info__logo
+                                    img.tips-post_info__img(src = "./img/icons/blue/logo.svg")
+                                .tips-post_info__container
+                                    .tips-post_info__name GMA Detailing
+                                    .tips-post_info__date
+                                        | 20 ноября
+                                        .tips-post_info__slash |
+                                        | 18:30
+                            .tips-post_info__title
+                                a.tips-post_info__link(href = "#") Как открыть детейлинг? Сложности, обучение, поставщики лажают.
+                            .tips-post_info__description
+                                |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                |Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            .tips-post_info__devider
+                            .post_info-stat
+                                .post_info-stat__watcher
+                                    |Просмотров:
+                                    |6
+                                .post_info-stat__like
+                                    img.post_info-stat__img(src = "./img/icons/blue/heart.svg")
+                    .tips-post
+                        .tips-post__first
+                            img.tips-post__img(src="./img/post-2_big.jpg")
+                        .tips-post__main
+                            .tips-post_info
+                                .tips-post_info__logo
+                                    img.tips-post_info__img(src = "./img/icons/blue/logo.svg")
+                                .tips-post_info__container
+                                    .tips-post_info__name GMA Detailing
+                                    .tips-post_info__date
+                                        | 20 ноября
+                                        .tips-post_info__slash |
+                                        | 18:30
+                            .tips-post_info__title
+                                a.tips-post_info__link(href = "#") Что лучше ? Makita VS Rupes. Какую полировальную машинку выбрать?
+                            .tips-post_info__description
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                | Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            .tips-post_info__devider
+                            .post_info-stat
+                                .post_info-stat__watcher
+                                    | Просмотров:
+                                    | 6
+                                .post_info-stat__like
+                                    img.post_info-stat__img(src = "./img/icons/blue/heart.svg")
+    include ../includes/footer

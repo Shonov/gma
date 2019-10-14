@@ -1,0 +1,365 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon' href='./img/icons/favicon.png' type='image/x-icon')
+    title Gma
+
+body
+    include ../includes/header
+    main.main
+        section.section.section-pager
+            .section__container
+                .section-pager__container
+                    a.section-pager__home(href="#") Главная
+                    .section-pager__slash /
+                    a.section-pager__current(href="") О нас
+
+        section.section.section-about-us
+            .section__container
+                .section-about-us__container.section-about-us__container--pc-hidden
+                    .section-about-us__title О нас
+                    .section__devider.section__devider--pc_hiden.section__devider--mobile
+                    .section-about-us__panel-list
+                        .panel.panel--first
+                            .panel__name
+                                |Более 18 лет
+                                br
+                                |на рынке ухода
+                                br
+                                |за автомбилями
+                        .panel.panel--second
+                            .panel__name
+                                |100% безопасно
+                                br
+                                |для электроники
+                        .panel.panel--third
+                            .panel__name
+                                |Немецкая
+                                br
+                                |химия
+                        .panel.panel--forth
+                            .panel__container
+                                .panel__name Гарантия качества
+                                .panel__description
+                                    | (Если Вам не понравится,
+                                    br
+                                    | Мы вернем Вам деньги)
+                .section-about-us.section-about-us--mobile
+                    .section-about-us__container
+                        .section-about-us__title О нас
+                        .section__devider.section__devider--pc_hiden.section__devider--mobile
+                        .section-about-us__panel-list
+                            .panel__row
+                                .panel.panel--first
+                                    .panel__name
+                                        | Более 18 лет
+                                        br
+                                        | на рынке ухода
+                                        br
+                                        | за автомбилями
+                                .panel.panel--second
+                                    .panel__name
+                                        | 100% безопасно
+                                        br
+                                        | для электроники
+                            .panel__row
+                                .panel.panel--third
+                                    .panel__name
+                                        | Немецкая
+                                        br
+                                        | химия
+                                .panel.panel--forth
+                                    .panel__container
+                                        .panel__name Гарантия качества
+                                        .panel__description
+                                            | (Если Вам не понравится,
+                                            br
+                                            | Мы вернем Вам деньги)
+        section.section.section-about-us
+            .section__container.section-employer
+                .slider-employer
+                    .slider-arrow-left
+                        button.slider-arrow-left__btn.slider-arrow-btn
+                            img.slider-arrow-left__img(src="./img/arrow-left.png")
+                    .employer-list(data-left = '0', data-last-employer = '')
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-1.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Гончаров
+                                        br
+                                        | Максим
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Руководитель
+                                    br
+                                    | проекта
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-2.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Жуков
+                                        br
+                                        | Максим
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-3.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-4.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-4.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-2.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Жуков
+                                        br
+                                        | Максим
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-3.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-4.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                        .employer
+                            .employer__box_img
+                                img.employer__img(src="./img/employer/employer-4.png")
+                            .employer__container
+                                .employer__contact
+                                    .employer__name
+                                        | Иванов
+                                        br
+                                        | Иван
+                                    .employer__social-icons
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/vk2.svg")
+                                        a.employer__social-link(href="#")
+                                            img.employer__social-icon(src="./img/icons/instagram2.svg")
+                                .employer__devider
+                                .employer__position
+                                    | Специалист
+                                    br
+                                    | по детейлингу
+                    .slider-arrow-right
+                        button.slider-arrow-right__btn.slider-arrow-btn
+                            img.slider-arrow-right__img(src="./img/arrow-right.png")
+
+
+        section.section.section-history
+            .section__container
+                .section-history__container
+                    .section-about-us__title Как всё начиналось
+                    .section__devider.section__devider--pc_hiden.section__devider--mobile
+                    .section-history__list
+                        .section-history_video
+                            iframe.section-history__video(src = "https://www.youtube.com/embed/Bg6DhQ9YcU4" frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+                        .section-history_footage.section-history_footage--pc
+                            .footage_main
+                                .footage_main__first
+                                    .main_img
+                                        img.main_img__first.minimized(src = "./img/history/1.png")
+                                    .main_small
+                                        img.main_img__second.minimized(src = "./img/history/2.png")
+                                .footage_main__second
+                                    .main_big_img
+                                        img.main_big__img.minimized(src = "./img/history/3.png")
+                            .footage_second
+                                .footage_second__box
+                                    img.footage_second__img.minimized(src = "./img/history/4.png")
+                                .footage_second__box
+                                    img.footage_second__img.minimized(src = "./img/history/5.png")
+                        .section-slider.section-slider--mobile
+                            .slider-slide.slider-fade
+                                img.slider-slide__img(src = "./img/slider/1.jpg")
+                            .slider-slide.slider-fade
+                                img.slider-slide__img(src = "./img/slider/2.jpg")
+                            .slider-slide.slider-fade
+                                img.slider-slide__img(src = "./img/slider/3.jpg")
+                            .slider-slide.slider-fade
+                                img.slider-slide__img(src = "./img/slider/4.jpg")
+                            .slider-slide.slider-fade
+                                img.slider-slide__img(src = "./img/slider/5.jpg")
+                            .slider-left.slider_btn
+                                a.slider-left__img
+                            .slider-right.slider_btn
+                                a.slider-right__img
+
+        section.section.section-zones
+            .section__container
+                .about_us_gallery
+                    .about_us_gallery__container.about_us_gallery__container--pc
+                        .about_us_gallery-main.about_us_gallery-main--work.minimized
+                            .about_us_gallery-main__name
+                                | Рабочая
+                                br
+                                | зона
+                        .about_us_gallery__second
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/work-2.png")
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/work-3.png")
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/work-4.png")
+                    .about_us_gallery__container.about_us_gallery__container--pc
+                        .about_us_gallery-main.about_us_gallery-main--client.minimized
+                            .about_us_gallery-main__name
+                                | Клиентская
+                                br
+                                | комната
+                        .about_us_gallery__second
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/client-2.jpg")
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/client-3.jpg")
+                            .about_us_gallery__small
+                                img.about_us_gallery__img.minimized(src = "./img/about_us/client-4.jpg")
+                    .section-slider_2.section-slider--mobile
+                        .slider-slide_2.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/client-1.png")
+                            .slider-slide__text
+                                | Клиентская
+                                br
+                                | комната
+                        .slider-slide_2.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/client-2.png")
+                        .slider-slide_2.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/client-3.png")
+                        .slider-slide_2.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/client-4.png")
+                        .slider-left.slider_btn
+                            a.slider-left__img
+                        .slider-right.slider_btn
+                            a.slider-right__img
+                    .section-slider_3.section-slider--mobile
+                        .slider-slide_3.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/work-1.png")
+                            .slider-slide__text
+                                | Рабочая
+                                br
+                                | зона
+                        .slider-slide_3.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/work-2.png")
+                        .slider-slide_3.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/work-3.png")
+                        .slider-slide_3.slider-fade
+                            img.slider-slide__img(src = "./img/about_us/work-4.png")
+                        .slider-left.slider_btn
+                            a.slider-left__img
+                        .slider-right.slider_btn
+                            a.slider-right__img
+
+    include ../includes/footer

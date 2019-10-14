@@ -1,0 +1,59 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon' href='./img/icons/favicon.png' type='image/x-icon')
+    title Gma
+body
+    include ../includes/header
+    main.main
+        section.section.section-pager
+            .section__container
+                .section-pager__container
+                    a.section-pager__home(href="#") Главная
+                    .section-pager__slash /
+                    a.section-pager__current(href="") Контакты
+
+        section.section.section_contact
+            .section__container
+                .section_contact
+                    .section-about-us__title Контакты
+                    .section__devider.section__devider--pc_hiden
+                    .section_contact__list
+                        .contact_panel.contact_panel--first
+                            .contact_panel__icon
+                                img.contact_panel__img(src = "./img/icons/blue/placeholder.svg")
+                            .contact_panel_info
+                                .contact_panel_info__main
+                                    | ул. Плиева, 61,&nbsp;
+                                    br.contact_panel__br--pc_hidden.contact_panel__br--mobile
+                                    | Ростов-на-Дону,
+                                .contact_panel_info__second
+                                    | Ростовская обл, 344068,
+                                    br
+                                    | Ростов-на-Дону, Ростовская обл.
+                        .contact_panel.contact_panel--middle
+                            .contact_panel__container
+                                .contact_panel__box
+                                    .contact_panel__icon
+                                        img.contact_panel__img(src = "./img/icons/blue/telephone.svg")
+                                    .contact_panel_info
+                                        .contact_panel_info__telephone
+                                            a.contact_panel_info__link(href="#") 8 (928) 126-81-66
+                                .contact_panel__box
+                                    .contact_panel_icon
+                                        img.contact_panel__img(src = "./img/icons/blue/e-mail-envelope.svg")
+                                    .contact_panel_info
+                                        .contact_panel_info__email
+                                            a.contact_panel_info__link(href="#") gma@yandex.ru
+                        .contact_panel.contact_panel--last
+                            .contact_panel__icon
+                                img.contact_panel__img(src = "./img/icons/blue/clock.svg")
+                            .contact_panel_info
+                                .contact_panel_info__main Пн - Сб 8.00 - 20.00
+                                .contact_panel_info__second Воскресенье - выходной
+
+        section.section_contact_map.section-map
+            .section__container
+                iframe.section__map(src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.1344704795997!2d39.71654211540882!3d47.272625818982426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b81f860d8385%3A0x1fb8077aaccea9b5!2z0YPQuy4g0J_Qu9C40LXQstCwLCA2MSwg0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NDA2OA!5e0!3m2!1sru!2sru!4v1545378654151&hl=ru" frameborder='0'  allowfullscreen='')
+    include ../includes/footer
